@@ -5,8 +5,7 @@ z = x + y
 
 #print(range(5))
 
-myarray = [1]
-avgarray = []
-for x in range(24):
-	myarray.append(x * 2 + 3)
-	print(sum(myarray) / (x + 2))
+myarray = []
+for x in range(25):
+	myarray.append(x * 2 + 1)
+	print(sum(myarray) / (x + 1))
